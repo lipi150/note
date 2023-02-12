@@ -70,12 +70,7 @@ function showNotes() {
 showNotes();
 
 
-function deleteNote(noteId)
-{
-   notes.splice(noteId,1);
-   localStorage.setItem("notes",JSON.stringify(notes));
-   showNotes();
-}
+
 
 
 
